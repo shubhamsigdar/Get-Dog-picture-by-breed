@@ -1,0 +1,84 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+html, body {
+  height:100%;
+  font-family:'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(lightyellow, orange);
+}
+header {
+  height: 10vh;
+  width: 100%;
+/*   border: 2px solid grey; */
+}
+img {
+object-fit: cover;
+height: 100%;
+width: 100%;
+}
+h1{
+  text-align:center;
+}
+/* h1 {
+  color:black;
+  font-size: 5rem;
+  text:align-center;
+} */
+.container{
+  height: 90vh;
+  width: 100%;
+/*   border: 2px solid black; */
+
+}
+.left-container{
+  height: 100%;
+  width: 30%;
+/*   border: 2px solid blue; */
+  float: left;
+}
+.right-container {
+  height: 100%;
+  width: 70%;
+  border: 2px solid lightyellow,;
+  float: left;
+}
+select {
+    font-size: 2.1rem;
+    margin-left:2%;
+}
+.lefth2{
+  font-size:2rem;
+  padding:0 15px;
+}
+.righth2{
+  font-size:2rem;
+  padding:0 42%;
+}
+
+ 
+.gallery{
+  height: 500px;
+  width: 500px;
+  overflow:hidden;
+  border: 2px solid red;
+  margin-left: 25%;
+}
+button {
+    font-size: 3.1rem;
+    margin-top:2%;
+    margin-left:3%;
+    padding:0 25%;
+    background: linear-gradient(lightyellow, orange);
+}
